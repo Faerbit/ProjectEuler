@@ -15,9 +15,4 @@ while ((i*5)<limit):
 
 print (set_)
 
-sum_ = 0
-for i in set_:
-    sum_ += i
-
-
-print(sum_)
+print(sum(set_))
