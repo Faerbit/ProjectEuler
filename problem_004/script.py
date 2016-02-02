@@ -8,12 +8,12 @@ def is_palindrome(number):
 
     return (first_half[::-1] == second_half)
 
-length=5
+length=3
 
 candidate_1 = pow(10, length)-1
 candidate_2 = pow(10, length)-1
 
-current = 0 
+current = 0
 
 while (candidate_2 > 0):
     if (is_palindrome(candidate_1 * candidate_2)):
